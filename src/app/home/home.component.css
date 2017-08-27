@@ -1,0 +1,33 @@
+md-expansion-panel {
+    width: 400px;
+    margin-right: 20px;
+}
+
+md-expansion-panel-header {
+    font-family: fantasy;
+}
+
+a span {
+    line-height: 40px;
+    margin-left: 20px;
+    font-family: fantasy;
+}
+
+md-card {
+    margin-left: 20px;
+}
+
+md-card-title.mat-card-title  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.frame img {
+    width: 700px;
+    height: 400px;
+}
+
+md-icon {
+    margin-left: 30px;
+}

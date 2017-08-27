@@ -1,0 +1,75 @@
+<div fxLayout="row" fxLayout.xs="column" fxLayout.sm="column" fxLayoutGap="20px">
+<div fxLayout="column" fxLayout.xs="column" fxFlex="70">
+  <md-card>
+      <md-card-header>
+          <md-card-title>Learning management system</md-card-title>
+      </md-card-header>
+      <md-card-content>
+          <p>
+              Flex Layout is a component engine that was recently announced by the Angular team. 
+              It allows to easily create Flexbox-based page layouts with a set of directives available to use in your templates. 
+              No need for separate CSS styling. The library itself is written in pure TypeScript, so no external stylesheets are needed. 
+              It also provides a way to specify different directives at different breakpoints to create responsive layouts.
+          </p>
+          <p>
+              The primary idea behind the flex layout is to give HTML DOM elements the ability to alter their width/height (and order) to best fill the available space... to reflow and layout for kind of display devices and screen sizes.
+              
+          </p> <p> More importantly, the flexbox layout is direction-agnostic as opposed to the regular layouts (block which is vertically-based and inline which is horizontally-based). While those work well for some pages, they lack flexibility to support large or complex applications: especially when it comes to orientation changing, resizing, stretching, shrinking, etc. Especially important are flex features that resize elements to intelligently fill available spaces. A flex container expands items to fill available free space, or shrinks them to prevent overflow.
+          </p>
+
+          <div class="frame">
+              <img alt="" aria-describedby="sample material image" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bx4BSt6jniD7Y1huOXVQdlFPMmM/materialdesign_introduction.png">
+          </div>
+      </md-card-content>
+  </md-card>
+</div>
+
+<div fxLayout="column" fxLayout.xs="column" fxFlex="30">
+  <div>
+    <md-accordion displayMode="default" [multi]="true" [hideToggle]="false">
+      <md-expansion-panel [hideToggle]="false" style="float: right;" [expanded]="true">
+        <md-expansion-panel-header>Angular 4 - Part 1</md-expansion-panel-header>
+        <div>
+            <md-icon>offline_pin</md-icon><a href=""><span>Angular 4 - Intro video</span></a>
+        </div>
+        <div>
+            <md-icon>offline_pin</md-icon><a href=""><span>Angular 4 - Routing</span></a>
+        </div>
+        <div>
+            <md-icon>offline_pin</md-icon><a href=""><span>Angular 4 - Observables</span></a>
+        </div>
+        <div>
+            <md-icon>offline_pin</md-icon><a href=""><span>Angular 4 - Promise</span></a>
+        </div>
+        <div>
+            <md-icon>offline_pin</md-icon><a href=""><span>Angular 4 - Http</span></a>
+        </div>
+      </md-expansion-panel>
+    </md-accordion>
+  </div>
+
+  <div>
+    <md-accordion displayMode="default" [multi]="true" [hideToggle]="false">
+      <md-expansion-panel [hideToggle]="false" style="float: right;" [expanded]="true">
+        <md-expansion-panel-header>Angular 4 - Part 2</md-expansion-panel-header>
+        <div>
+          <md-icon>offline_pin</md-icon><a href=""><span>Angular 4 - Custom Directive</span></a>
+        </div>
+        <div>
+            <md-icon>offline_pin</md-icon><a href=""><span>Angular 4 - Http Interceptor</span></a>
+        </div>
+        <div>
+            <md-icon>offline_pin</md-icon><a href=""><span>Angular 4 - Service</span></a>
+        </div>
+        <div>
+            <md-icon>offline_pin</md-icon><a href=""><span>Angular 4 - Lazy Loading</span></a>
+        </div>
+        <div>
+            <md-icon>offline_pin</md-icon><a href=""><span>Angular 4 - AOT</span></a>
+        </div>
+      </md-expansion-panel>
+    </md-accordion>
+  </div>
+</div>
+
+</div>
